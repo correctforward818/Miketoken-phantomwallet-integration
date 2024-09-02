@@ -11,7 +11,6 @@ const WalletItem: React.FC<IWalletItem> = ({ handleLogin, walletConfig }) => {
   const { title, icon: Icon } = walletConfig;
   const handleSelectWallet = () => {
     handleLogin(walletConfig);
-    console.log(walletConfig);
   };
   return (
     <Flex
