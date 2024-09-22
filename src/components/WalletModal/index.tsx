@@ -59,7 +59,6 @@ const WalletModal: React.FC<IWalletModal> = ({
 
   const handleConnectWallet = async (wallet: WalletsConfig): Promise<void> => {
     try {
-      console.log(wallet?.title + "---------------------->");
       if (wallet?.title == "Phantom Wallet") {
         if (!wallet?.installed) {
           window.open(
@@ -126,8 +125,6 @@ const WalletModal: React.FC<IWalletModal> = ({
       if (solWindow?.solana?.isPhantom) {
         setProvider(solWindow.solana);
         setWalletAvail(true);
-        // Attemp an eager connection
-        // solWindow.solana.connect({ onlyIfTrusted: true });
       }
     }
   }, []);
