@@ -40,6 +40,14 @@ const TeamMember: React.FC = () => {
       linkedin: "https://www.linkedin.com/in/david-crpo-0a916427a/",
       info: "David, Co-founder and Head of Community at Mike Token, utilizes his experience to drive project success. With a user-centric approach and strategic vision, he fosters engagement and facilitates growth for the project.",
     },
+    {
+      name: "q4",
+      nameMenber: "David",
+      title: "Co-founder & Head of Community",
+      avatar: "avt-david",
+      linkedin: "https://www.linkedin.com/in/david-crpo-0a916427a/",
+      info: "David, Co-founder and Head of Community at Mike Token, utilizes his experience to drive project success. With a user-centric approach and strategic vision, he fosters engagement and facilitates growth for the project.",
+    },
   ];
 
   const settings = {
